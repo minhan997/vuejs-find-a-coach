@@ -70,7 +70,6 @@ export default {
     const formIsValid = ref(true);
 
     function clearValidity(input) {
-      console.log(input);
       [input].isValid = true;
     }
 
